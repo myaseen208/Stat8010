@@ -1,0 +1,342 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stat-8010: Statistical Methods I",
+    "section": "",
+    "text": "Preface\nThis booklet provides the class notes for Stat-8010: Statistical Methods I, based on An Introduction to Statistical Methods and Data Analysis by Ott and Longnecker (please refer to the textbook for complete and comprehensive details). The following topics are covered:\n\nStatistics and the Scientific Method\nData Description\nProbability and Probability Distributions\nInference about a Single Population Mean\nInference about Population Variances\nInference about Two Population Means\nInference about Two or More Population Means\nMultiple Mean Comparisons\nExperimental Design\nLinear Regression and Correlation\nCategorical Data Analysis\n\nOtt, L., & Longnecker, M. T. (2015). An introduction to statistical methods and data analysis. Cengage Learning.\n\n\n\n\n\n\n\nFigure 1: Spring 2025 Stat-8010 Syllabus",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "Ch01.html",
+    "href": "Ch01.html",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "",
+    "text": "1.1 Motivation",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#motivation",
+    "href": "Ch01.html#motivation",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "",
+    "text": "Quotation (William E. Deming)\n\n\n\nIn God we trust, all others must bring data.\n\n\n\n\n\n\n\n\nQuotation (H.G. Wells)\n\n\n\nStatistical thinking will one day be as necessary a qualification for efficient citizenship as the ability to read & write.\n\n\n\n\n\n\n\n\nQuotation (R. A. Fisher)\n\n\n\nTo call in the statistician after the experiment is done may be no more than asking him to perform a postmortem examination: he may be able to say what the experiment died of.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#introduction",
+    "href": "Ch01.html#introduction",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.2 Introduction",
+    "text": "1.2 Introduction\n\nStatistics is the science concerned with using sample information to make inference about populations.\nStatistics is the science of uncertainty and variability.\nStatistics is the interpretation of Science\n\nData Driven Decisions (3Ds)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#reasoning",
+    "href": "Ch01.html#reasoning",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.3 Reasoning",
+    "text": "1.3 Reasoning\n\nDeduction\n\nReasoning from general to particular.\nMan is mortal. → Every human being is mortal.\n\nInduction\n\nReasoning from particular to general.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#statistical-reasoning-analysis",
+    "href": "Ch01.html#statistical-reasoning-analysis",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.4 Statistical Reasoning & Analysis",
+    "text": "1.4 Statistical Reasoning & Analysis\n\nStatistics is the science of uncertainty & variability\nTurning Data into Information\n\nData → Information → Knowledge → Wisdom\n\n\n\n\n\n\n\n\nFigure 1.1: Big Data\n\n\n\n\nStatistics is the Art and Science of learning from Data.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#definitions",
+    "href": "Ch01.html#definitions",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.5 Definitions",
+    "text": "1.5 Definitions\n\nPopulation\n\nSet of measurements of interest. Characteristics of the population (parameters) are typically of interest.\n\nSample\n\nSubset of measurements of interest. A characteristic of the sample (statistic) is used to infer population characteristics (parameters).\n\nParameter\n\nA characteristic of the population.\n\nStatistic\n\nA characteristic of the sample.\n\nDescriptive Statistics\n\nDescribing the important characteristics of a set of data.\n\nInferential Statistics\n\nUsing sample data to make inferences (or generalizations) about a population.\n\nStatistical Inference\n\nMaking a statement about the population (parameter) based on the sample (statistic).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#scientific-method-and-statistics",
+    "href": "Ch01.html#scientific-method-and-statistics",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.6 Scientific Method and Statistics",
+    "text": "1.6 Scientific Method and Statistics\n\n\n\n\n\n\nFigure 1.2: Scientific Method and Statistics",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#statistical-data-generating-mechanism",
+    "href": "Ch01.html#statistical-data-generating-mechanism",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.7 Statistical Data Generating Mechanism",
+    "text": "1.7 Statistical Data Generating Mechanism\n\n1.7.1 Observational Study/Survey\nResearcher has (no control) over conditions of interest.\n\n\n1.7.2 Experiment\nResearcher has (control) over some conditions of interest.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#variable",
+    "href": "Ch01.html#variable",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.8 Variable",
+    "text": "1.8 Variable\n\nA characteristic that may vary from subject to subject\n\nHeight, Weight, Income, Eye color, Gender, etc\n\nVariables are denoted by last English alphabets in upper case\n\nX, Y, Z, etc\n\nDifferent observations of a variable are characterized by subscripts\n\nX_{1},X_{2},\\ldots,X_{n}, etc",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#measurement-measurement-scales",
+    "href": "Ch01.html#measurement-measurement-scales",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.9 Measurement & Measurement Scales",
+    "text": "1.9 Measurement & Measurement Scales\n\nMeasurement\n\nThe process of assigning numbers or labels to objects or states in accordance with specific logically accepted rules.\n\n\n\n\n\n\n\n\nFigure 1.3: Traffic Signal\n\n\n\n\nMeasurement Scales\n\nData can be classified according to levels of measurement.\nThe level of measurement of the data often dictates the calculations that can be done to summarize and present the data.\nIt will also determine the statistical tests that should be performed.\n\n\n\n\n\n\n\n\nFigure 1.4: Measurement Scales",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#types-of-variables",
+    "href": "Ch01.html#types-of-variables",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.10 Types of Variables",
+    "text": "1.10 Types of Variables\n\n1.10.1 Qualitative & Quantitative Variables\n\nQualitative\n\nNominal or Ordinal variables\n\nQuantitative\n\nInterval or Ratio variables\n\nDiscrete\nContinuous\n\nNormal\nNon-Normal\n\n\n\n\n\n\n1.10.2 Dependent & Independent Variables\n\nDependent Variable\n\nVariable influenced by other variable(s)\n\nIndependent Variable\n\nVariable influencing other variable(s)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#relationship-bw-variables",
+    "href": "Ch01.html#relationship-bw-variables",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.11 Relationship b/w Variables",
+    "text": "1.11 Relationship b/w Variables\n\n1.11.1 Dependent & Independent Variables\n\nArea & Radius of a Circle\n\nArea of a circle is influenced by its radius.\n\nDependent Variable: Area\nIndependent Variable: Radius\n\nArea ← Radius\n\n\n\nElectricity Bill & Units Consumed\n\nElectricity bill is influenced by units consumed.\n\nDependent Variable: Electricity Bill\nIndependent Variable: Units Consumed\n\nElectricity Bill ← Units Consumed\n\n\n\nExpenditures & Income\n\nExpenditures are influenced by Income.\n\nDependent Variable: Expenditures\nIndependent Variable: Income\n\nExpenditures ← Income\n\n\n\nCrop Production & Amount of Fertilizer\n\nCrop Production is influenced by Amount of Fertilizer used.\n\nDependent Variable: Crop Production\nIndependent Variable: Amount of Fertilizer\n\nCrop Production ← Amount of Fertilizer",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#types-of-relationship",
+    "href": "Ch01.html#types-of-relationship",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.12 Types of Relationship",
+    "text": "1.12 Types of Relationship\n\n1.12.1 Mathematical Relationship\n\nMathematical Relationship\n\nExact Relationship\nY = f\\left(X\\right)\nY  \\mathrel{\\color{red}\\leftarrow} X\n\nRelationship between Area and Radius of a Circle\n\nA = f\\left(r\\right)\nA = \\pi r^{2}\nA  \\mathrel{\\color{red}\\leftarrow} r\n\nRelationship between Electricity Bill & Units Consumed\n\n\\text{Bill} = f\\left(\\text{Units Consumed}\\right)\n\\text{Bill}  \\mathrel{\\color{red}\\leftarrow} \\text{Units Consumed}",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#statistical-relationship",
+    "href": "Ch01.html#statistical-relationship",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.13 Statistical Relationship",
+    "text": "1.13 Statistical Relationship\n\nStatistical Relationship\n\nInexact or Probabilistic Relationship\nY  = f\\left(X\\right)+\\epsilon\nY  \\mathrel{\\color{red}\\leftarrow} X\n\nRelationship between Expenditures and Income\n\n\\text{Expenditures}  = f\\left(\\text{Income}\\right)+\\epsilon\n\\text{Expenditures}  \\mathrel{\\color{red}\\leftarrow} \\text{Income}\n\nCrop Production and Amount of Fertilizer\n\n\\text{Crop Production}  = f\\left(\\text{Amount of Fertilizer}\\right)+\\epsilon\n\\text{Crop Production}  \\mathrel{\\color{red}\\leftarrow} \\text{Amount of Fertilizer}",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#statistical-models",
+    "href": "Ch01.html#statistical-models",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.14 Statistical Models",
+    "text": "1.14 Statistical Models\n\n\n\n\n\n\nGeorge E P Box\n\n\n\nAll models are wrong, but some are useful.\n\n\n\n\n\n\n\n\nFigure 1.5: George E P Box",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#linear-model",
+    "href": "Ch01.html#linear-model",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.15 Linear Model",
+    "text": "1.15 Linear Model\n\nExpenditures & Income\n\nExpenditures are influenced by Income.\nExpenditures ← Income\n\nExpenditures & Gender\n\nExpenditures are influenced by Gender.\nExpenditures ← Gender\n\nExpenditures, Income & Gender\n\nExpenditures are influenced by Income & Gender.\nExpenditures ← Income + Gender\n\nWeight Gain & Intake\n\nWeight Gain is influenced by Intake.\nWeight Gain ← Intake\n\nWeight Gain & Feed Type\n\nWeight Gain is influenced by Feed Type.\nWeight Gain ← Feed Type\n\nWeight Gain, Intake & Feed Type\n\nWeight Gain is influenced by Intake & Feed Type.\nWeight Gain ← Intake + Feed Type\n\nYield & Amount of Fertilizer\n\nYield of a crop is influenced by Amount of Fertilizer.\nYield ← Amount of Fertilizer\n\nYield & Varieties\n\nYield of a crop is influenced by Varieties.\nYield ← Varieties\n\nYield, Amount of Fertilizer & Varieties\n\nYield of a crop is influenced by Amount of Fertilizer & Varieties.\nYield ← Amount of Fertilizer + Varieties\n\n\n\n1.15.1 Regression Model\n\nQuantify the dependency of a Normal variable on one or more quantitative variable(s)\n\n\n\n\n\n\n\nFigure 1.6: Regression Model\n\n\n\n\n\n1.15.2 ANOVA Model\n\nComparing means of Normal dependent variable for levels of different factors\n\n\n\n\n\n\n\nFigure 1.7: ANOVA Model\n\n\n\n\n\n1.15.3 ANCOVA Model\n\nQuantify the dependency of a Normal variable on one or more quantitative variable(s)\nComparing means of Normal dependent variable for levels of different factors\n\n\n\n\n\n\n\nFigure 1.8: ANCOVA Model",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch01.html#r-software",
+    "href": "Ch01.html#r-software",
+    "title": "1  Statistics and the Scientific Method",
+    "section": "1.16 R Software",
+    "text": "1.16 R Software\n\n\n\n\n\n\nDefinition\n\n\n\nR is a free, open-source programming language and software environment for statistical computing, bioinformatics, visualization and general computing. R provides a wide variety of statistical and graphical techniques, and is highly extensible. The latest version of R can be obtained from https://cran.r-project.org/bin/.\n\n\n\n1.16.1 RStudio\nRStudio is a powerful integrated development environment (IDE) for R, and it can be downloaded from https://www.rstudio.com/products/rstudio/download/.\n\n\n1.16.2 Example Code (Minimal)\n\nCh01.RCh01.qmd\n\n\n\n2 + 2\n5 - 2\n5 * 2\n6/2\n\n\n\n\n---\ntitle: \"Statistics and the Scientific Method\"\nformat:\n  html\ntoc: true\nnumber-sections: true\n---\n\n# Introduction\n\n```{r}\n#| echo: true\n2 + 2\n5 - 2\n5 * 2\n6/2 \n```\n\n\n\n\n\n\n1.16.3 An Introduction to R\n\n\n\n\n\n\n\nFigure 1.9: An Introduction to R\n\n\n\n\n\n1.16.4 R Short Reference Card\n\n\n\n\n\n\n\nFigure 1.10: R Short Reference Card\n\n\n\n\n\n1.16.5 2009 New York Times Article on R\n\n\n\n\n\n\n\nFigure 1.11: 2009 New York Times Article on R\n\n\n\n\n\n1.16.6 2015 Nature Article on R\n\n\n\n\n\n\n\nFigure 1.12: 2015 Nature Article on R",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Statistics and the Scientific Method</span>"
+    ]
+  },
+  {
+    "objectID": "Ch02.html",
+    "href": "Ch02.html",
+    "title": "2  Data Description",
+    "section": "",
+    "text": "2.1 Collecting Data",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Description</span>"
+    ]
+  },
+  {
+    "objectID": "Ch02.html#collecting-data",
+    "href": "Ch02.html#collecting-data",
+    "title": "2  Data Description",
+    "section": "",
+    "text": "2.1.1 Observational Study/Survey\n\n\n\n\n\n\nObservational Study/Survey\n\n\n\nResearcher has no control over conditions of interest.\n\n\n\n\n2.1.2 Experiment\n\n\n\n\n\n\nExperiment\n\n\n\nResearcher has control over conditions of interest.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Description</span>"
+    ]
+  },
+  {
+    "objectID": "Ch02.html#variable-types",
+    "href": "Ch02.html#variable-types",
+    "title": "2  Data Description",
+    "section": "2.2 Variable Types",
+    "text": "2.2 Variable Types\n\n2.2.1 Qualitative Variable\n\n\n\n\n\n\nQualitative Variable\n\n\n\nDescribe qualities or characteristics.\n\n\n\n\n2.2.2 Quantitative Variable\n\n\n\n\n\n\nQuantitative Variable\n\n\n\nRepresent measurable quantities and are expressed in numerical form.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Description</span>"
+    ]
+  },
+  {
+    "objectID": "Ch02.html#graphical-methods",
+    "href": "Ch02.html#graphical-methods",
+    "title": "2  Data Description",
+    "section": "2.3 Graphical Methods",
+    "text": "2.3 Graphical Methods\n\n2.3.1 Qualitative Data\n\n2.3.1.1 Example\n\n\n\n\n\n\nHair Color of 35 Persons\n\n\n\nBlonde, Brown, Brown, Black, Red, Brown, Brown, Black, Brown, Brown, Blonde, Black, Brown, Blonde, Black, Red, Brown, Black, Brown, Brown, Brown, Black, Brown, Black, Blonde, Blonde, Black, Brown, Blonde, Black, Brown, Blonde, Red, Black, Brown\n\nR OutputR Code\n\n\n\n\n\n\nTable 2.1: Frequency Distribution\n\n\n\n\n\n\nColor\nn\npercent\n\n\n\n\nBlack\n10\n0.2857143\n\n\nBlonde\n7\n0.2000000\n\n\nBrown\n15\n0.4285714\n\n\nRed\n3\n0.0857143\n\n\nTotal\n35\n1.0000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable 2.2\n\n\nlibrary(fastverse)\nlibrary(tidyverse)\nlibrary(scales)\nlibrary(janitor)\nlibrary(kableExtra)\n\nExmp2.1 &lt;- \n  data.table(\n    Color = \n          c(\n            \"Brown\", \"Black\", \"Black\", \"Brown\", \"Black\", \"Blonde\", \"Brown\"\n          , \"Blonde\", \"Blonde\", \"Brown\", \"Black\", \"Red\", \"Brown\", \"Brown\" \n          , \"Brown\", \"Brown\", \"Black\", \"Brown\", \"Brown\", \"Brown\", \"Brown\" \n          , \"Black\", \"Red\", \"Blonde\", \"Blonde\", \"Black\", \"Black\", \"Brown\" \n          , \"Blonde\", \"Brown\", \"Red\", \"Black\", \"Blonde\", \"Brown\", \"Black\"\n        )\n      )\n\nExmp2.1 %&gt;% \n  tabyl(Color) %&gt;% \n  adorn_totals() %&gt;% \n  kbl()\n\n\n\n\n\n\n\nR OutputR Code\n\n\n\n\n\n\n\n\n\n\n\n\n\n(a) Pie Chart\n\n\n\n\n\n\n\n\n\n\n\n(b) Bar Chart\n\n\n\n\n\n\nFigure 2.1: Graphical display of qualitative data\n\n\n\n\n\n\n\nExmp2.1 %&gt;% \n  tabyl(Color) %&gt;% \n  ggplot(data = ., aes(x = \"\", y = n, fill = Color)) +\n  geom_bar(stat = \"identity\", width = 1) +\n  coord_polar(\"y\", start = 0) +\n  theme_void()\n\nggplot(data = Exmp2.1, mapping = aes(x = Color)) +\n  geom_bar() +\n  scale_y_continuous(expand = c(0, 0), limits = c(0, NA), breaks = pretty_breaks(n = 8)) +\n  labs(\n    x = \"Color\"\n  , y = \"Frequency\"\n  ) +\n  theme_classic()\n\n\n\n\n\n\n\n\n\n2.3.2 Quantitative Data\n\n2.3.2.1 Example\n\n\n\n\n\n\nMonthly sales of small business in $1,000.\n\n\n\n8.2, 11.5, 12.1, 7.3, 14.8, 9.4, 9.7, 8.4, 10.1, 12.3, 10.2, 9.5, 13.4, 9.8, 10.9, 15.1, 8.3, 6.1, 8.7, 10.3\n\nR OutputR Code\n\n\n\n\n\n\nTable 2.3: Frequency Distribution\n\n\n\n\n\n\nLL\nn\npercent\n\n\n\n\n[6.1,8]\n2\n0.10\n\n\n(8,10]\n8\n0.40\n\n\n(10,12]\n5\n0.25\n\n\n(12,14]\n3\n0.15\n\n\n(14,16]\n2\n0.10\n\n\nTotal\n20\n1.00\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable 2.4\n\n\nExmp2.2 &lt;- \n  data.table(\n    Sales = c(\n                8.2, 11.5, 12.1, 7.3, 14.8, 9.4, 9.7, 8.4, 10.1, 12.3\n              , 10.2, 9.5, 13.4, 9.8, 10.9,15.1, 8.3, 6.1, 8.7, 10.3\n              )\n  )\n\nExmp2.2 %&gt;% \n  fmutate(LL = cut(\n                     x = Sales\n                   , breaks = c(6.1, 8.0, 10.0, 12.0, 14.0, 16.0)\n                   , include.lowest = TRUE\n                   , right = TRUE\n                   )\n          ) %&gt;% \n  tabyl(LL) %&gt;% \n  adorn_totals() %&gt;% \n  kbl()\n\n\n\n\n\n\n\nR OutputR Code\n\n\n\n\n\n\n\n\n\n\nFigure 2.2: Histogram\n\n\n\n\n\n\n\n\nggplot(data = Exmp2.2, mapping = aes(x = Sales)) +\n  geom_histogram(bins = 5) +\n  scale_x_continuous(breaks = pretty_breaks(n = 8)) +\n  scale_y_continuous(expand = c(0, 0), limits = c(0, NA), breaks = pretty_breaks(n = 8)) +\n  labs(\n    x = \"Sales\"\n  , y = \"Frequency\"\n  ) +\n  theme_classic()\n\n\n\n\n\n\n\n\n2.3.2.2 Histogram Shapes\n\n\n\n\n\n\nHistogram Shapes\n\n\n\n\nSymmetric\nUniform\nSkewed Right\nSkewed Left\n\n\n\n\n\n2.3.2.3 Stem and Leaf Diagram\n\n\n\n\n\n\nStem and Leaf Diagram\n\n\n\n\nAttempt to capture additional information lost in histogram\nForm stem of first digit (or sometimes multiple digits) of data values\nAttach leaf of trailing digit or digits\n\n\n\n\n\n2.3.2.4 Example\n\n\n\n\n\n\nMonthly sales of small business in $1,000.\n\n\n\n8.2, 11.5, 12.1, 7.3, 14.8, 9.4, 9.7, 8.4, 10.1, 12.3, 10.2, 9.5, 13.4, 9.8, 10.9, 15.1, 8.3, 6.1, 8.7, 10.3\n\nR OutputR Code\n\n\n\n\n\nTable 2.5: Stem and Leaf Diagram\n\n\n\n\n  The decimal point is at the |\n\n   6 | 1\n   7 | 3\n   8 | 2347\n   9 | 4578\n  10 | 1239\n  11 | 5\n  12 | 13\n  13 | 4\n  14 | 8\n  15 | 1\n\n\n\n\n\n\n\n\n\nTable 2.6\n\n\nExmp2.2 %&gt;% \n  pull(Sales) %&gt;%\n  stem(x = ., scale = 2, width = 80)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Description</span>"
+    ]
+  },
+  {
+    "objectID": "Ch02.html#numerical-methods",
+    "href": "Ch02.html#numerical-methods",
+    "title": "2  Data Description",
+    "section": "2.4 Numerical Methods",
+    "text": "2.4 Numerical Methods\n\n2.4.1 Mean\n\n\n\n\n\n\nMean\n\n\n\nConsider the random sample:\nY_{1}=6, Y_{2}=11, Y_{3}=5, Y_{4}=7, Y_{5}=4, Y_{6}=9\n\n\\begin{align*}\n\\overline{Y} & =\\frac{\\sum_{i=1}^{n}Y_{i}}{n}=\\frac{Y_{1}+Y_{2}+Y_{3}+Y_{4}+Y_{5}+Y_{6}}{6}\\\\\n\\overline{Y} & =\\frac{6+11+5+7+4+9}{6}=7\n\\end{align*}\n\n\nR OutputR Code\n\n\n\n\n[1] 7\n\n\n\n\n\nExmp2.3 &lt;- data.table(Y = c(6, 11, 5, 7, 4, 9))\n\nExmp2.3 %&gt;% \n  pull(Y) %&gt;%\n  fmean(x = .)\n\n\n\n\n\n\n\n\n2.4.2 Median\n\n\n\n\n\n\nMedian\n\n\n\nConsider the random sample:\nY_{1}=6, Y_{2}=11, Y_{3}=5, Y_{4}=7, Y_{5}=4, Y_{6}=9\nArrange data in ascending order:\n4,5,6,7,9,11\n\\text{Medain} =\\frac{\\left(6+7\\right)}{2}=6.5\n\nR OutputR Code\n\n\n\n\n[1] 6.5\n\n\n\n\n\nExmp2.3 &lt;- data.table(Y = c(6, 11, 5, 7, 4, 9))\n\nExmp2.3 %&gt;% \n  pull(Y) %&gt;%\n  fmedian(x = .)\n\n\n\n\n\n\n\n\n2.4.3 Mean vs Median\n\n\n\n\n\n\nMean vs Median\n\n\n\n\nWhich does one use?\nConsider changing the value of 11 to 110 in previous example data.\nNow Mean is 25.33.\nMedian is 6.5.\nWhich is more representative of this data?\n\n\n\n\n\n2.4.4 Outliers\n\n\n\n\n\n\nOutliers\n\n\n\n\nData values that are far from the majority of the data.\nMedian is more resistant to outliers.\nTrimmed Mean: A way to remove the influence of outliers by only averaging the middle \\left(100-2k\\right)\\% of the data \\left(k&lt;50\\right). A 5% trimmed mean averages the middle 90% of the data.\n\n\n\n\n\n2.4.5 Percentiles\n\n\n\n\n\n\nPercentiles\n\n\n\n\nThe p-th percentile of a population (or sample) is that value within the population (or sample) such that p\\% of the population (or sample) is less than or equal to the given value.\nMedian\nQuartiles: Q_{1}, Q_{2}, and Q_{3}\nDeciles: D_{1}, D_{2}, \\ldots , D_{9}\nPercentiles: P_{1}, P_{2}, \\ldots , P_{99}\nNote that, Q_{1}=P_{25}, Q_{2}=D_{5}=P_{50}, and Q_{3}=P_{75}.\n\n\nR OutputR Code\n\n\n\n\n[1] 9.95\n\n\n   25%    50%    75% \n 8.625  9.950 11.650 \n\n\n   25%    50%    75% \n 8.625  9.950 11.650 \n\n\n  10%   20%   30%   40%   50%   60%   70%   80%   90% \n 8.11  8.38  9.19  9.62  9.95 10.24 11.08 12.14 13.54 \n\n\n\n\n\nExmp2.2 %&gt;% \n  pull(Sales) %&gt;%\n  fmedian(x = .)\n\nExmp2.2 %&gt;% \n  pull(Sales) %&gt;%\n  fquantile(x = ., probs = c(0.25, 0.50, 0.75))\n\nExmp2.2 %&gt;% \n  pull(Sales) %&gt;%\n  fquantile(x = ., probs = c(1:3)/4)\n\nExmp2.2 %&gt;% \n  pull(Sales) %&gt;%\n  fquantile(x = ., probs = c(1:9)/10)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Description</span>"
+    ]
+  },
+  {
+    "objectID": "Ch02.html#measures-of-variability",
+    "href": "Ch02.html#measures-of-variability",
+    "title": "2  Data Description",
+    "section": "2.5 Measures of Variability",
+    "text": "2.5 Measures of Variability\n\n2.5.1 Range\n\n\n\n\n\n\nRange\n\n\n\nConsider the random sample:\nY_{1}=6, Y_{2}=11, Y_{3}=5, Y_{4}=7, Y_{5}=4, Y_{6}=9\n\n\\begin{align*}\n\\text{Range} & =\\text{Largest data value}-\\text{Smallest data value}\\\\\n\\text{Range} & =11-4=7\n\\end{align*}\n\n\nR OutputR Code\n\n\n\n\n[1]  4 11\n\n\n\n\n\nExmp2.3 %&gt;% \n  pull(Y) %&gt;%\n  frange(x = .)\n\n\n\n\n\n\n\n\n2.5.2 Interquartile Range\n\n\n\n\n\n\nInterquartile Range (IQR)\n\n\n\nConsider the random sample:\nY_{1}=6, Y_{2}=11, Y_{3}=5, Y_{4}=7, Y_{5}=4, Y_{6}=9\n\n\\begin{align*}\n\\text{IQR} & =Q_{3}-Q_{1}\n\\end{align*}\n\n\nR OutputR Code\n\n\n\n\n[1] 3.25\n\n\n\n\n\nExmp2.3 %&gt;% \n  pull(Y) %&gt;%\n  IQR(x = .)\n\n\n\n\n\n\n\n\n2.5.3 Variance\n\n\n\n\n\n\nVariance\n\n\n\nConsider the random sample:\nY_{1}=6, Y_{2}=11, Y_{3}=5, Y_{4}=7, Y_{5}=4, Y_{6}=9\n\n\\begin{align*}\nS^{2} & =\\frac{\\sum_{i=1}^{n}\\left(Y_{i}-\\overline{Y}\\right)^{2}}{n-1}\\\\\nS^{2} & =\\frac{(6-7)^{2}+(11-7)^{2}+(5-7)^{2}+(7-7)^{2}+(4-7)^{2}+(9-7)^{2}}{6-1}\\\\\nS^{2} & =\\frac{34}{5}=6.8\n\\end{align*}\n\n\nR OutputR Code\n\n\n\n\n[1] 6.8\n\n\n\n\n\nExmp2.3 %&gt;% \n  pull(Y) %&gt;%\n  fvar(x = .)\n\n\n\n\n\n\n\n\n2.5.4 Standard Deviation\n\n\n\n\n\n\nStandard Deviation\n\n\n\nConsider the random sample:\nY_{1}=6, Y_{2}=11, Y_{3}=5, Y_{4}=7, Y_{5}=4, Y_{6}=9\n\n\\begin{align*}\nS & =\\sqrt{\\frac{\\sum_{i=1}^{n}\\left(Y_{i}-\\overline{Y}\\right)^{2}}{n-1}}\\\\\nS & =\\sqrt{\\frac{\\sum_{i=1}^{n}Y_{i}^{2}-\\frac{\\left(\\sum_{i=1}^{n}Y_{i}\\right)^{2}}{n}}{n-1}}\\\\\nS & =\\sqrt{6.8}=2.608\n\\end{align*}\n\n\nR OutputR Code\n\n\n\n\n[1] 2.607681\n\n\n\n\n\nExmp2.3 %&gt;% \n  pull(Y) %&gt;%\n  fsd(x = .)\n\n\n\n\n\n\n\n\n2.5.5 Empirical Rule\n\n\n\n\n\n\nEmpirical Rule\n\n\n\nFor bell shaped histograms:\n\n\n\n\n\n\nFigure 2.3: Empirical Rule\n\n\n\n\n\n\n\n2.5.6 Box Plot\n\n\n\n\n\n\nBox Plot\n\n\n\nBox plot or Box Whisker plot can be used to pick out pertinent aspects of data such as\n\nMeasure of Central Tendency\nMeasure of Variability\nMeasure of Symmetry\nOutliers\nGroup Comparisons\n\n\n\n\n\n\n\nFigure 2.4: Box Whisker Plot\n\n\n\n\n\\begin{align*}\n\\text{Lower Inner Fence} & =Q_{1}-1.5\\times\\text{IQR}\\\\\n\\text{Upper Inner Fence} & =Q_{3}+1.5\\times\\text{IQR}\\\\\n\\text{Lower Outer Fence} & =Q_{1}-3\\times\\text{IQR}\\\\\n\\text{Upper Outer Fence} & =Q_{3}+3\\times\\text{IQR}\n\\end{align*}\n\n\nMild Outlier: Beyond inner fence (but inside outer fence)\nExtreme Outlier: Beyond outer fence\nNote that the lines from the boxes extend to the lower and upper adjacent values (the smallest and largest values that are not outliers).\n\n\nR OutputR Code\n\n\n\n\n\n\n\n\n\n\nFigure 2.5: Box Whisker Plot\n\n\n\n\n\n\n\n\nggplot(data = Exmp2.2, mapping = aes(y = Sales)) +\n  geom_boxplot() +\n  scale_x_continuous(limits = c(-1, 1)) +\n  scale_y_continuous(breaks = pretty_breaks(n = 8)) +\n  labs(\n    x = NULL\n  , y = \"Sales\"\n  ) +\n  theme_classic() +\n  theme(\n    axis.ticks.x = element_blank()\n  , axis.text.x  = element_blank() \n  )",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Description</span>"
+    ]
+  },
+  {
+    "objectID": "Ch04.html",
+    "href": "Ch04.html",
+    "title": "4  Inference about a Single Population Mean",
+    "section": "",
+    "text": "4.1 Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Inference about a Single Population Mean</span>"
+    ]
+  },
+  {
+    "objectID": "Ch05.html",
+    "href": "Ch05.html",
+    "title": "5  Inference about Population Variances",
+    "section": "",
+    "text": "5.1 Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Inference about Population Variances</span>"
+    ]
+  },
+  {
+    "objectID": "Ch05.html#introduction",
+    "href": "Ch05.html#introduction",
+    "title": "5  Inference about Population Variances",
+    "section": "",
+    "text": "Definition\n\n\n\nQuantifying dependency of a normal response on quantitative explanatory variable(s)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Inference about Population Variances</span>"
+    ]
+  },
+  {
+    "objectID": "Ch06.html",
+    "href": "Ch06.html",
+    "title": "6  Inference about Two Population Means",
+    "section": "",
+    "text": "6.1 Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Inference about Two Population Means</span>"
+    ]
+  },
+  {
+    "objectID": "Ch07.html",
+    "href": "Ch07.html",
+    "title": "7  Inference about Two or More Population Means",
+    "section": "",
+    "text": "7.1 Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Inference about Two or More Population Means</span>"
+    ]
+  },
+  {
+    "objectID": "Ch08.html",
+    "href": "Ch08.html",
+    "title": "8  Multiple Mean Comparisons",
+    "section": "",
+    "text": "8.1 Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Multiple Mean Comparisons</span>"
+    ]
+  },
+  {
+    "objectID": "Ch09.html",
+    "href": "Ch09.html",
+    "title": "9  Experimental Design",
+    "section": "",
+    "text": "9.1 Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Experimental Design</span>"
+    ]
+  },
+  {
+    "objectID": "Ch10.html",
+    "href": "Ch10.html",
+    "title": "10  Linear Regression and Correlation",
+    "section": "",
+    "text": "10.1 Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Linear Regression and Correlation</span>"
+    ]
+  },
+  {
+    "objectID": "Ch11.html",
+    "href": "Ch11.html",
+    "title": "11  Categorical Data Analysis",
+    "section": "",
+    "text": "11.1 Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Categorical Data Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Ott, L., & Longnecker, M. T. (2015). An introduction to statistical methods and data analysis. Cengage Learning.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
